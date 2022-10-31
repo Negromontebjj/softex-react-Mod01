@@ -12,9 +12,6 @@ function Item(props){
     )
 }
 
-Item.propTypes = {
-    marca: PropTypes.string.isRequired,
-    ano_lancamento: PropTypes.number,
-}
+
 
 export default Item
