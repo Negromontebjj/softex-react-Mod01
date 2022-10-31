@@ -1,9 +1,12 @@
 import PropTypes from 'prop-types'
 
-function Item({marca, ano_lancamento}){
+function Item(props){
     return(
         <>
-            <li>{marca} - {ano_lancamento}</li>
+            <li>
+                {props.marca}
+                {props.ano_lancamento}
+            </li>
             
         </>
     )
