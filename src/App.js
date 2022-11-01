@@ -14,8 +14,8 @@ function App() {
             <Frase />
             <SayMyName nome = "Carlos"/>
             <Pessoas nome="Carlos" 
-                      idade="30" 
-                      profissao="TI" 
+                      idade="37" 
+                      profissao="Programador" 
                       foto = "https://almasurf.com.br/wp-content/uploads/2020/12/Untitled-2-5.jpg"/>
             <List />
     </div>
