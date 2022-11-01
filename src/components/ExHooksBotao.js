@@ -10,9 +10,9 @@ function ExHooksBotao() {
 
   return (
     <div>
-      <p>Você clicou {count} vezes</p>
+      <h3>Você clicou {count} vezes</h3>
       <button onClick={() => setCount(count + 1)}>
-        Exercicio Softex Clique aqui Botão
+        Exercicio hoooks Softex Clique aqui Botão
       </button>
     </div>
   );

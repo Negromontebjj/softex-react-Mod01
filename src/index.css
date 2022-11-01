@@ -12,3 +12,10 @@ p {
   background-color: #999;
   padding: 10px;
 }
+
+button {
+  color: black ;
+  background-color: rgb(50, 172, 121);
+  margin-bottom: 20px;
+  
+}

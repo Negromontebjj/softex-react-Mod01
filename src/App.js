@@ -4,11 +4,13 @@ import SayMyName from './components/SayMyName';
 import Pessoas from './components/Pessoas';
 import Frase from './components/Frase';
 import List from './components/List';
+import ExHooksBotao from './components/ExHooksBotao';
 
 
 function App() {
   return (
     <div className="App">
+            <ExHooksBotao />
             <HelloWorld />
             <Frase />
             <Frase />
