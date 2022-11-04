@@ -5,8 +5,6 @@ import Pessoas from './components/Pessoas';
 import Frase from './components/Frase';
 import List from './components/List';
 import ExHooksBotao from './components/ExHooksBotao';
-import React from 'react';
-import Routes from './routes'
 
 
 function App() {
@@ -22,7 +20,6 @@ function App() {
                       profissao="Programador" 
                       foto = "https://almasurf.com.br/wp-content/uploads/2020/12/Untitled-2-5.jpg"/>
             <List />
-            <Routes/>
     </div>
   );
 }
