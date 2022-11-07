@@ -3,19 +3,15 @@ import { Link } from 'react-router-dom';
 
 const Home = () =>{
   return (
-    <div>
-      <h1>Página Inicial</h1>
-      <nav>
-        <ul>
-          <li>
+    <>
+        <h1>Página Inicial</h1>
+        <h2>
             <Link to="/sobre">Sobre</Link>
-          </li>
-          <li>
+        </h2>
+        <h2>
             <Link to="/usuario">Usuario</Link>
-          </li>
-        </ul>
-      </nav>
-    </div>
+        </h2>
+    </>
   );
 }
 
